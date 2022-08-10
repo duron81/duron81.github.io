@@ -1,0 +1,150 @@
+@media print {
+    .tm-sidebar, #about, .heading>.padding-medium, .blocks, #ideas, #contact, .img-contact-us {
+        display: none;
+    }
+}
+
+.tm-nav-item:hover {
+    background-color: #f5f5f5;
+}
+
+.flex-2-col {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tm-banner {
+    width: 100%;
+    border: 30px solid #f5f5f5;
+    padding: 0;
+}
+
+#home, .tm-content-box {
+    box-shadow: 1px 1px 10px 0px grey;
+}
+
+.box-bg:hover {
+    background-color: lightskyblue;
+}
+
+.box-bg:hover .tm-box-bg-title {
+    color: #FFF;
+}
+
+p::first-letter {
+    color: lightskyblue;
+    font-size: 30px;
+}
+
+.tm-content-box {
+    justify-content: center;
+}
+
+.tm-main-nav {
+    box-shadow: 1px 1px 10px 0px grey;
+}
+
+.blocks>.flex-2-col {
+    box-shadow: none;
+}
+
+#ideas h2 {
+    color: gainsboro;
+    letter-spacing: 5px;
+}
+
+h2+p {
+    font-style: italic;
+}
+
+.tm-section-description {
+    line-height: 2;
+    text-indent: 30px;
+}
+
+.tm-team-description-container .tm-section-description::first-line {
+    line-height: 1.5;
+}
+
+.padding-medium .new {
+    vertical-align: super;
+    line-height: 0;
+    color: red;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.padding-medium ol a:link {
+    color: black;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+}
+
+.padding-medium ol a:visited {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.padding-medium ol a:hover {
+    color:lightskyblue;
+    text-decoration: underline;
+    border: none;
+}
+
+.padding-medium ol a:active {
+    color:black;
+}
+
+.box-work {
+    padding: 10px;
+}
+
+.boxes .box:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.blocks .boxes {
+    border-top: 10px solid #f5f5f5;
+}
+
+.submit-btn {
+    width: 160px;
+    height: 60px;
+    font-size: 20px;
+    color: lightskyblue;
+    border-color: lightskyblue;
+    border-radius: 0;
+    background-color: #fff;
+}
+
+.submit-btn:hover {
+    color: #FFF;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+}
+
+.contact-form {
+    text-align: right;
+}
+
+.mandatory-field::after {
+    content: "*";
+    color: red;
+    font-weight: bold;
+}
+
+.tm-team-description-container {
+    position: relative;
+}
+
+.tm-content-box .tm-team-description-container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -138px;
+    width: 0;
+    height: 0;
+    border-top: 30px solid lightskyblue;
+    border-right: 250px solid transparent;
+}
